@@ -5,8 +5,8 @@ high conversion, fluid animations, and mobile-first responsiveness.
 
 ## Live Demo
 
-- **Live URL:** _Deploy with Vercel / Netlify / GitHub Pages — see deployment steps below_
-- **Repository:** _Add your GitHub repository link here_
+- **Live URL:** _Deploy with Render / Vercel / Netlify — see Deployment steps below_
+- **Repository:** [github.com/HariSaiBhaskar/tis-homepage-redesign](https://github.com/HariSaiBhaskar/tis-homepage-redesign)
 
 ## Tech Stack
 
@@ -46,10 +46,10 @@ life gallery, and an admissions form with success state.
 ## Getting Started Locally
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/tis-homepage-redesign.git
-   cd tis-homepage-redesign
-   ```
+```bash
+git clone https://github.com/HariSaiBhaskar/tis-homepage-redesign.git
+cd tis-homepage-redesign
+```
 
 2. **Install dependencies:**
    ```bash
@@ -109,10 +109,13 @@ The project builds to a static `dist/` folder, so any static host works:
 npm run build
 ```
 
-- **Vercel / Netlify:** connect the repository — the frameworks are detected
+- **Render (recommended):** render.com → **New +** → **Static Site** → connect
+  the `HariSaiBhaskar/tis-homepage-redesign` repo → build command `npm run build`,
+  publish directory `dist`, instance type **Free** → Create. Live at
+  `https://tis-homepage-redesign.onrender.com`.
+- **Vercel / Netlify:** import the repository — frameworks are detected
   automatically (build command `npm run build`, output `dist`).
-- **GitHub Pages:** push and deploy the `dist/` folder (e.g. via
-  `github-pages` or the Actions "deploy to Pages" workflow).
+- **GitHub Pages:** deploy the `dist/` folder via the repo's Actions/Settings.
 
 ## Brand Identity Retained
 
