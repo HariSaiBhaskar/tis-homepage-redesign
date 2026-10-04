@@ -27,17 +27,17 @@ const PILLARS = [
 
 const GALLERY = [
   {
-    src: '/images/photos/classroom-desks.jpg',
+    src: 'images/photos/classroom-desks.jpg',
     alt: 'Modern classroom with interactive display and student desks',
     caption: 'Smart Classrooms',
   },
   {
-    src: '/images/photos/science-lab.jpg',
+    src: 'images/photos/science-lab.jpg',
     alt: 'Students performing an experiment in the science laboratory',
     caption: 'Science & Atal Labs',
   },
   {
-    src: '/images/photos/sports-students.jpg',
+    src: 'images/photos/sports-students.jpg',
     alt: 'Students playing a match on the school sports field',
     caption: 'Sports Complex',
   },
@@ -54,7 +54,7 @@ export function AboutSection() {
         <Reveal className="relative order-2 lg:order-1">
           <div className="brand-gradient-bg relative aspect-[4/3.4] overflow-hidden rounded-[2.5rem] shadow-2xl shadow-brand/20">
             <img
-              src="/images/photos/campus-university.jpg"
+              src="images/photos/campus-university.jpg"
               alt="The Tulas International School campus building and green grounds"
               width={1200}
               height={800}

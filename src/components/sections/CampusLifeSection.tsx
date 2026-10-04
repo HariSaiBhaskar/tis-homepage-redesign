@@ -3,32 +3,32 @@ import { SectionHeading } from '../ui/SectionHeading';
 
 const PHOTOS = [
   {
-    src: '/images/photos/classroom-kids.jpg',
+    src: 'images/photos/classroom-kids.jpg',
     alt: 'Young students learning together in a bright classroom',
     caption: 'Early Years',
   },
   {
-    src: '/images/photos/students-hands.jpg',
+    src: 'images/photos/students-hands.jpg',
     alt: 'Students raising their hands to answer a question',
     caption: 'Hands-On Learning',
   },
   {
-    src: '/images/photos/library.jpg',
+    src: 'images/photos/library.jpg',
     alt: 'School library with tall bookshelves',
     caption: 'Knowledge Centre',
   },
   {
-    src: '/images/photos/sports-students.jpg',
+    src: 'images/photos/sports-students.jpg',
     alt: 'Students playing sports on the field',
     caption: 'Sports Complex',
   },
   {
-    src: '/images/photos/graduation-ceremony.jpg',
+    src: 'images/photos/graduation-ceremony.jpg',
     alt: 'Students celebrating together at graduation',
     caption: 'Celebrations',
   },
   {
-    src: '/images/photos/campus-building.jpg',
+    src: 'images/photos/campus-building.jpg',
     alt: 'School campus building exterior',
     caption: 'Heritage Campus',
   },
@@ -80,7 +80,7 @@ export function CampusLifeSection() {
         <Reveal delay={0.2} className="mt-5">
           <figure className="group relative overflow-hidden rounded-3xl shadow-md shadow-brand/10">
             <img
-              src="/images/photos/university-hall.jpg"
+              src="images/photos/university-hall.jpg"
               alt="Grand university-style hall corridor of the school"
               width={1600}
               height={700}

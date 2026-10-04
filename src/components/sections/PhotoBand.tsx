@@ -1,34 +1,34 @@
 const PHOTOS = [
   {
-    src: '/images/photos/classroom-kids.jpg',
+    src: 'images/photos/classroom-kids.jpg',
     alt: 'Young students learning together in a bright classroom',
   },
   {
-    src: '/images/photos/students-hands.jpg',
+    src: 'images/photos/students-hands.jpg',
     alt: 'Students raising their hands to answer a question',
   },
   {
-    src: '/images/photos/library.jpg',
+    src: 'images/photos/library.jpg',
     alt: 'School library with tall bookshelves and reading space',
   },
   {
-    src: '/images/photos/sports-students.jpg',
+    src: 'images/photos/sports-students.jpg',
     alt: 'Students playing sports on the school field',
   },
   {
-    src: '/images/photos/campus-building.jpg',
+    src: 'images/photos/campus-building.jpg',
     alt: 'School campus building exterior',
   },
   {
-    src: '/images/photos/graduation-student.jpg',
+    src: 'images/photos/graduation-student.jpg',
     alt: 'Graduate student celebrating academic success',
   },
   {
-    src: '/images/photos/science-lab.jpg',
+    src: 'images/photos/science-lab.jpg',
     alt: 'Students conducting a science experiment',
   },
   {
-    src: '/images/photos/school-kids.jpg',
+    src: 'images/photos/school-kids.jpg',
     alt: 'School children smiling during class',
   },
 ];

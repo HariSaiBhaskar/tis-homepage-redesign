@@ -4,7 +4,8 @@ A modern, animated redesign of the Tulas International School homepage focusing 
 high conversion, fluid animations, and mobile-first responsiveness.
 
 ## 🚀 Live Demo
-- **Live URL:** [tis-homepage-redesign.onrender.com](https://tis-homepage-redesign.onrender.com) (Render — free tier; first visit may take ~30s to wake)
+- **GitHub Pages (primary):** [harisaibhaskar.github.io/tis-homepage-redesign](https://harisaibhaskar.github.io/tis-homepage-redesign/) — auto-deploys on every push via GitHub Actions
+- **Render:** [tis-homepage-redesign.onrender.com](https://tis-homepage-redesign.onrender.com)
 - **Repository:** [HariSaiBhaskar/tis-homepage-redesign](https://github.com/HariSaiBhaskar/tis-homepage-redesign)
 
 ## Tech Stack
@@ -102,19 +103,23 @@ src/
 
 ## Deployment
 
-The project builds to a static `dist/` folder, so any static host works:
+The project builds to a static `dist/` folder and uses **relative asset
+paths** (`base: './'`), so it runs identically on any static host — root
+domain or project subpath.
 
-```bash
-npm run build
-```
-
-- **Render (recommended):** render.com → **New +** → **Static Site** → connect
-  the `HariSaiBhaskar/tis-homepage-redesign` repo → build command `npm run build`,
-  publish directory `dist`, instance type **Free** → Create. Live at
-  `https://tis-homepage-redesign.onrender.com`.
-- **Vercel / Netlify:** import the repository — frameworks are detected
-  automatically (build command `npm run build`, output `dist`).
-- **GitHub Pages:** deploy the `dist/` folder via the repo's Actions/Settings.
+- **GitHub Pages (automated):** this repo includes a GitHub Actions
+  workflow (`.github/workflows/deploy.yml`). Enable it once:
+  repo → **Settings** → **Pages** → Source: **GitHub Actions** → Save.
+  Every push to `main` then auto-deploys to
+  `https://harisaibhaskar.github.io/tis-homepage-redesign/`.
+- **Netlify (instant):** drag the `dist/` folder to
+  **app.netlify.com/drop** for a one-click live URL, or use
+  **New site from Git** to connect this repo (build command
+  `npm run build`, publish directory `dist`).
+- **Vercel:** import the repository — the framework is detected
+  automatically.
+- **Render:** connect the repo as a Static Site (build command
+  `npm run build`, publish directory `dist`, instance type Free).
 
 ## Brand Identity Retained
 

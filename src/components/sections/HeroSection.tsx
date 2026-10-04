@@ -205,7 +205,7 @@ export function HeroSection() {
             className="relative aspect-[4/4.4] overflow-hidden rounded-[2.5rem] shadow-2xl shadow-brand/30 transition-shadow duration-300"
           >
             <img
-              src="/images/photos/campus-university.jpg"
+              src="images/photos/campus-university.jpg"
               alt="The Tulas International School campus"
               width={1200}
               height={1500}
