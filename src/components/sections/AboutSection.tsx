@@ -11,7 +11,7 @@ const PILLARS = [
   {
     icon: HeartHandshake,
     title: 'Every Child Known',
-    text: 'With a 1:15 mentor ratio, teachers track each learner’s pace, strengths and wellbeing across every term.',
+    text: 'With a 6:1 student-teacher ratio, teachers track each learner’s pace, strengths and wellbeing across every term.',
   },
   {
     icon: Compass,
@@ -64,10 +64,10 @@ export function AboutSection() {
             />
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0e1830]/55 to-transparent p-6 pt-16">
               <p className="font-display text-2xl font-semibold text-white">
-                25+ years of shaping curious, confident minds.
+                Since 2012, shaping curious, confident minds.
               </p>
               <p className="mt-1 text-sm font-medium text-white/80">
-                Est. 2000 · Hyderabad, Telangana
+                Est. 2012 · Dehradun, Uttarakhand
               </p>
             </div>
           </div>
@@ -75,9 +75,9 @@ export function AboutSection() {
             delay={0.25}
             className="absolute -right-3 -bottom-6 rounded-2xl border border-line bg-panel px-5 py-4 shadow-xl shadow-brand/10 sm:-right-6"
           >
-            <p className="font-display text-2xl font-bold text-brand">A+</p>
+            <p className="font-display text-2xl font-bold text-brand">#1</p>
             <p className="text-xs font-semibold tracking-wide text-body uppercase">
-              CBSE Accreditation
+              Co-ed Boarding School, Dehradun
             </p>
           </Reveal>
         </Reveal>
@@ -93,7 +93,7 @@ export function AboutSection() {
                 family of learners
               </>
             }
-            description="Founded in 2000, Tulas International School has grown from a single campus of 200 students to one of the city’s most trusted CBSE schools — without ever losing its personal touch."
+            description="Established in 2012 under the aegis of Rishabh Educational Trust, Tulas International School has grown into one of India's most trusted CBSE boarding and day schools — without ever losing its personal touch."
           />
           <div className="grid gap-x-8 gap-y-7 sm:grid-cols-2">
             {PILLARS.map((pillar, index) => (

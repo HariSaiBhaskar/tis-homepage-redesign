@@ -1,17 +1,16 @@
 import {
-  Award,
-  Baby,
   BedDouble,
   BookOpen,
   Bus,
   FlaskConical,
   GraduationCap,
-  HeartHandshake,
+  HeartPulse,
   Landmark,
   Library,
   MonitorSmartphone,
   Music,
   Trophy,
+  Users,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -22,10 +21,10 @@ export interface Stat {
 }
 
 export const STATS: Stat[] = [
-  { value: 25, suffix: '+', label: 'Years of Excellence' },
-  { value: 1500, suffix: '+', label: 'Happy Students' },
-  { value: 60, suffix: '+', label: 'Expert Educators' },
-  { value: 98, suffix: '%', label: 'Board Results' },
+  { value: 22, suffix: ' Acres', label: 'Pollution-Free Campus' },
+  { value: 16, suffix: '+', label: 'Olympic Sports' },
+  { value: 24, suffix: '×7', label: 'Medical Assistance' },
+  { value: 6, suffix: ':1', label: 'Student-Teacher Ratio' },
 ];
 
 export interface Program {
@@ -38,32 +37,32 @@ export interface Program {
 
 export const PROGRAMS: Program[] = [
   {
-    icon: Baby,
-    title: 'Pre-Primary',
-    tagline: 'Play-based Montessori foundation',
-    ageGroup: 'Ages 3 – 6',
-    points: ['Montessori method', 'Sensorial learning', 'Story & rhyme club'],
-  },
-  {
     icon: BookOpen,
-    title: 'Primary School',
-    tagline: 'Curiosity-driven core academics',
-    ageGroup: 'Grades 1 – 5',
-    points: ['CBSE curriculum', 'Reading & STEM labs', 'Life skills program'],
+    title: 'Junior School',
+    tagline: 'Foundation for lifelong learning',
+    ageGroup: 'Class IV – V',
+    points: ['CBSE curriculum', 'Activity-based learning', 'Sports introduction'],
   },
   {
     icon: FlaskConical,
     title: 'Middle School',
     tagline: 'Inquiry, labs and leadership',
-    ageGroup: 'Grades 6 – 8',
+    ageGroup: 'Class VI – VIII',
     points: ['Subject-specialist faculty', 'Robotics & coding', 'Inter-house sports'],
   },
   {
     icon: GraduationCap,
     title: 'Senior School',
     tagline: 'Board excellence and beyond',
-    ageGroup: 'Grades 9 – 12',
-    points: ['CBSE Class X & XII', 'Career counselling', 'Commerce & Science streams'],
+    ageGroup: 'Class IX – X',
+    points: ['CBSE Class X boards', 'Career counselling', 'House leadership'],
+  },
+  {
+    icon: Landmark,
+    title: 'Senior Secondary',
+    tagline: 'Streams and ambitions',
+    ageGroup: 'Class XI – XII',
+    points: ['Science & Commerce streams', 'Competitive exam prep', 'University guidance'],
   },
 ];
 
@@ -90,32 +89,28 @@ export const FACILITIES: Facility[] = [
   {
     icon: Library,
     title: 'Knowledge Centre',
-    description: 'A 10,000+ volume library with reading nooks, digital resources and research corners.',
+    description: 'A well-stocked library with reading nooks, digital resources and research corners.',
   },
   {
     icon: Trophy,
     title: 'Sports Complex',
-    description: 'Basketball, tennis, athletics and indoor games with trained coaches and house competitions.',
+    description:
+      '16+ Olympic sports including archery, horse riding, shooting, swimming, hockey, football and cricket.',
   },
   {
     icon: Bus,
     title: 'Safe Transport',
-    description: 'GPS-tracked buses with trained attendants covering all major city routes.',
+    description: 'GPS-tracked buses with trained attendants covering all major routes in Dehradun.',
   },
   {
     icon: BedDouble,
-    title: 'Comfort Hostel',
-    description: 'Air-conditioned boarding with mentored study hours and wholesome meals.',
+    title: 'Boarding House',
+    description: 'Comfortable boarding with warden supervision, mentored study hours and wholesome meals.',
   },
   {
-    icon: HeartHandshake,
-    title: 'Counselling Cell',
-    description: 'Full-time counsellors for emotional well-being, career guidance and parent workshops.',
-  },
-  {
-    icon: Award,
-    title: 'Award-Winning Faculty',
-    description: '60+ educators with national training certifications and an average 1:15 mentor ratio.',
+    icon: HeartPulse,
+    title: '24×7 Medical Assistance',
+    description: 'On-campus infirmary with a doctor and nursing staff available round the clock.',
   },
   {
     icon: Music,
@@ -123,9 +118,15 @@ export const FACILITIES: Facility[] = [
     description: 'Dance, music, theatre and visual-art studios with annual showcases and competitions.',
   },
   {
+    icon: Users,
+    title: '6:1 Mentor Ratio',
+    description: 'Every learner gets personal attention with a 6:1 student-teacher ratio.',
+  },
+  {
     icon: Landmark,
-    title: 'Heritage Campus',
-    description: 'A 5-acre green campus with open-air amphitheatres, gardens and shaded walkways.',
+    title: '22-Acre Campus',
+    description:
+      'Pollution-free campus on Chakrata Road with open-air amphitheatres, gardens and shaded walkways.',
     wide: true,
   },
 ];
@@ -139,21 +140,21 @@ export interface Testimonial {
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      'My daughter went from being shy to confidently leading her school debate team. The teachers at TIS know every child by name.',
-    name: 'Meera Reddy',
-    role: 'Parent, Grade 4 Student',
+      'We have seen a remarkable improvement in our child’s confidence and skills since joining Tulas. The teachers here are genuinely dedicated to bringing out the best in every student.',
+    name: 'Tashi Tsering',
+    role: 'Parent, TIS Student',
   },
   {
     quote:
-      'The robotics lab and Atal Tinkering space gave me the confidence to build my first app in Grade 8. TIS made learning feel like play.',
-    name: 'Arjun Mehta',
-    role: 'Alumnus, Class of 2024',
+      'Tulas gives a comprehensive environment for our child to grow. The sports, academics and extra-curricular activities have helped our child in knowing himself better.',
+    name: 'Namita Agarwal',
+    role: 'Parent, TIS Student',
   },
   {
     quote:
-      'We moved cities for the senior school. The career counselling and board results speak for themselves — 98% distinction this year.',
-    name: 'Dr. Kavitha Rao',
-    role: 'Parent, Grade 11 Student',
+      'Being a parent, it’s a big challenge to find a boarding school that qualifies your parameters of security, health, hygiene, academics and self-discipline — Tulas delivers on all of them.',
+    name: 'Ashu Arora',
+    role: 'Parent, Boarding Student',
   },
 ];
 
@@ -164,29 +165,29 @@ export interface Faq {
 
 export const FAQS: Faq[] = [
   {
-    question: 'Which board does TIS follow?',
+    question: 'Which board and classes does TIS offer?',
     answer:
-      'Tulas International School follows the CBSE curriculum from Pre-Primary through Grade 12, with Science and Commerce streams at the senior level.',
+      'Tulas International School follows the CBSE curriculum for Class IV through Class XII, as a co-educational boarding and day school in Dehradun.',
+  },
+  {
+    question: 'Is TIS a boarding school?',
+    answer:
+      'Yes. TIS is a boarding and day school with comfortable boarding houses, warden supervision, mentored study hours, 24×7 medical assistance and wholesome meals.',
   },
   {
     question: 'What is the admission process for 2026–27?',
     answer:
-      'Submit the enquiry form below, attend a campus interaction with our coordinators, and receive an offer within 7 working days. Admissions are open for all grades subject to seat availability.',
+      'Submit the enquiry form below, attend a campus interaction with our coordinators, and receive an offer within 7 working days. Admissions are open for Class IV to XII subject to seat availability.',
   },
   {
-    question: 'Is transport available for all routes?',
+    question: 'What sports are available on campus?',
     answer:
-      'Our GPS-tracked fleet covers all major routes across Hyderabad. Routes and timings are shared during admission, and every bus has a trained attendant on board.',
+      '16+ Olympic sports including archery, horse riding, shooting range, swimming, hockey, football, cricket, basketball, lawn tennis, badminton, table tennis, squash, billiards, volleyball, taekwondo and cycling.',
   },
   {
-    question: 'Do you offer scholarships?',
+    question: 'What is the student-teacher ratio?',
     answer:
-      'Yes. Merit scholarships are awarded for academic distinction and talent in sports or arts. Ask our admissions team for the current criteria and application window.',
-  },
-  {
-    question: 'What is the average class size?',
-    answer:
-      'We cap sections at 30 students with a 1:15 mentor ratio, ensuring every learner receives personal attention and regular progress feedback.',
+      'We maintain a 6:1 student-teacher ratio, ensuring every learner receives personal attention and regular progress feedback.',
   },
 ];
 
@@ -197,7 +198,7 @@ export interface AdmissionStep {
 
 export const ADMISSION_STEPS: AdmissionStep[] = [
   { title: 'Enquire', description: 'Fill the form or call us — our team responds within 24 hours.' },
-  { title: 'Visit', description: 'Tour the campus, meet coordinators and observe a class in session.' },
+  { title: 'Visit', description: 'Tour the 22-acre campus, meet coordinators and observe a class.' },
   { title: 'Apply', description: 'Submit documents and a short interaction with the child.' },
   { title: 'Enroll', description: 'Receive your offer letter and join the TIS family.' },
 ];

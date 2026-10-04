@@ -210,7 +210,7 @@ export function AdmissionSection() {
                           <option value="" disabled>
                             Select a grade
                           </option>
-                          {['Pre-Primary (PP1 – PP2)', 'Grades 1 – 5', 'Grades 6 – 8', 'Grades 9 – 10', 'Grades 11 – 12'].map(
+                          {['Class IV – V', 'Class VI – VIII', 'Class IX – X', 'Class XI – XII'].map(
                             (option) => (
                               <option key={option} value={option}>
                                 {option}

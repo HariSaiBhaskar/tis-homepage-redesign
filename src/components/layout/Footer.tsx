@@ -28,8 +28,8 @@ export function Footer() {
               Tulas International School
             </p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed">
-              A CBSE school where curiosity is celebrated, character is built,
-              and every child is known by name — from ages 3 to 17.
+              India’s top CBSE boarding & day school in Dehradun — Class IV
+              to XII on a 22-acre pollution-free campus.
             </p>
             <div className="mt-5 flex gap-2">
               {SOCIALS.map((social) => (
@@ -103,8 +103,8 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-line pt-7 text-xs text-body sm:flex-row">
           <p>
-            © {CURRENT_YEAR} Tulas International School. All rights
-            reserved.
+            © {CURRENT_YEAR} Tulas International School, Dehradun. All
+            rights reserved.
           </p>
           <p>
             Crafted with care · <span className="text-brand">Admissions open 2026–27</span>

@@ -123,8 +123,11 @@ domain or project subpath.
 
 ## Brand Identity Retained
 
-Primary school palette (deep indigo + gold accent), CBSE-focused copy, and the
-Tulas International School name and crest from tis.edu.in. All photography is
-self-hosted under `public/images/photos/` (12 professional campus/classroom/
-sports shots) — zero external asset dependencies, so the page never shows a
-broken image.
+Core branding and copy from **tis.edu.in**: the Tulas International
+School name, the "Let's Do It, With Tulas" tagline, Dehradun
+location, CBSE boarding & day school identity, real campus stats
+(22-acre pollution-free campus, 16+ Olympic sports, 6:1
+student-teacher ratio, 24×7 medical assistance), real parent
+testimonials, and the official contact details (admission helpline
++91-98379 83791, info@tis.edu.in). All photography is self-hosted
+under `public/images/photos/` — zero external asset dependencies.

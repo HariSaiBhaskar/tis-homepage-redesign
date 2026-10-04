@@ -1,9 +1,9 @@
-import { Award, Users, Clock, Star } from 'lucide-react';
+import { HeartPulse, Leaf, Trophy, Users } from 'lucide-react';
 import { STATS } from '../../data/content';
 import { CountUp } from '../animation/CountUp';
 import { Reveal } from '../animation/Reveal';
 
-const ICONS = [Clock, Users, Award, Star];
+const ICONS = [Leaf, Trophy, HeartPulse, Users];
 
 export function StatsSection() {
   return (

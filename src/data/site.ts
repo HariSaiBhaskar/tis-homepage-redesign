@@ -14,14 +14,14 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const CONTACT = {
-  address: '12-34, Education Hill, Hyderabad, Telangana 500019',
-  phone: '+91 40 6789 2026',
-  email: 'admissions@tis.edu.in',
+  address: 'Dhoolkot, P.O. – Selaqui, Chakrata Road, Dehradun – 248011, Uttarakhand',
+  phone: '+91-98379 83791',
+  email: 'info@tis.edu.in',
   hours: 'Mon – Sat, 8:00 AM – 4:00 PM',
 };
 
 export const SOCIALS = [
   { label: 'Website', href: 'https://tis.edu.in' },
-  { label: 'Email', href: 'mailto:admissions@tis.edu.in' },
+  { label: 'Email', href: 'mailto:info@tis.edu.in' },
   { label: 'Directions', href: 'https://maps.google.com' },
 ];

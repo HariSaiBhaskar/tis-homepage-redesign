@@ -145,19 +145,19 @@ export function HeroSection() {
             variants={item}
             className="font-display mt-6 text-[2.75rem] leading-[1.08] font-bold text-ink sm:text-6xl lg:text-[4.2rem]"
           >
-            Where{' '}
-            <span className="brand-gradient-text">Bright Futures</span>
+            Let's Do It,
             <br />
-            Begin Today
+            <span className="brand-gradient-text">With Tulas</span>
           </motion.h1>
 
           <motion.p
             variants={item}
             className="mt-6 max-w-xl text-lg leading-relaxed"
           >
-            Tulas International School blends CBSE academic rigour with
-            Montessori curiosity, world-class campus facilities and mentors
-            who know every child by name — from Pre-Primary to Grade 12.
+            Tulas International School is one of India's top CBSE boarding
+            and day schools in Dehradun — a 22-acre pollution-free campus,
+            16+ Olympic sports and a 6:1 student-teacher ratio, from
+            Class IV to XII.
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-wrap gap-4">
@@ -180,7 +180,7 @@ export function HeroSection() {
             variants={item}
             className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium text-body"
           >
-            {['CBSE Affiliated', '25+ Years of Excellence', '1:15 Mentor Ratio'].map(
+            {['CBSE Affiliated', 'Boarding & Day School', 'Class IV – XII'].map(
               (text) => (
                 <li key={text} className="flex items-center gap-2">
                   <span className="h-1.5 w-1.5 rounded-full bg-accent" />
@@ -225,8 +225,8 @@ export function HeroSection() {
               style={{ transform: 'translateZ(30px)' }}
               className="font-display relative px-8 pt-16 text-3xl leading-snug font-semibold text-white"
             >
-              “Education is not the filling of a pail, but the lighting of
-              a fire.”
+              “School isn't just about lessons — it's about endless
+              opportunities waiting to be explored.”
             </motion.p>
             <motion.p
               initial={{ opacity: 0 }}
@@ -247,7 +247,7 @@ export function HeroSection() {
                 Now enrolling
               </p>
               <p className="font-display mt-1 text-xl font-semibold text-white">
-                Pre-Primary → Grade 12
+                Class IV → XII
               </p>
             </motion.div>
           </motion.div>
