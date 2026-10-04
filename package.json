@@ -1,8 +1,12 @@
 {
   "name": "tis-homepage-redesign",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HariSaiBhaskar/tis-homepage-redesign.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
