@@ -3,10 +3,9 @@
 A modern, animated redesign of the Tulas International School homepage focusing on
 high conversion, fluid animations, and mobile-first responsiveness.
 
-## Live Demo
-
-- **Live URL:** _Deploy with Render / Vercel / Netlify — see Deployment steps below_
-- **Repository:** [github.com/HariSaiBhaskar/tis-homepage-redesign](https://github.com/HariSaiBhaskar/tis-homepage-redesign)
+## 🚀 Live Demo
+- **Live URL:** [tis-homepage-redesign.onrender.com](https://tis-homepage-redesign.onrender.com) (Render — free tier; first visit may take ~30s to wake)
+- **Repository:** [HariSaiBhaskar/tis-homepage-redesign](https://github.com/HariSaiBhaskar/tis-homepage-redesign)
 
 ## Tech Stack
 
